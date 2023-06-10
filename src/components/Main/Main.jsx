@@ -1,5 +1,6 @@
 import "./Main.css";
 import globe from "../../img/globe.svg";
+import profile_img from "../../img/profile-img.png";
 
 function Main() {
   return (
@@ -22,6 +23,18 @@ function Main() {
         <b>навыками должен обладать фронтенд разработчик в 2022 году</b> и как
         начать карьеру в востребованной профессии <b>с зарплатой</b>{" "}
         <mark>от 1 000$</mark>
+      </div>
+      <div className="info-person">
+        <img src={profile_img} alt="profile-img" />
+        <div>
+          <h2>
+            Кирилл <b>КАСАТОНОВ</b>
+          </h2>
+          <p>
+            6 лет коммерческого опыта с такими компаниями как Mercedes-Benz и
+            другими крупными корпорациями
+          </p>
+        </div>
       </div>
     </div>
   );

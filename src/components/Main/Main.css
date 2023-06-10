@@ -128,3 +128,53 @@ mark {
 
   color: #ffffff;
 }
+
+.info-person {
+  display: flex;
+  margin-left: 256px;
+  margin-top: 52px;
+}
+
+.info-person img {
+  width: 50px;
+  height: 50px;
+}
+
+.info-person h2 {
+  width: 155.35px;
+  height: 16px;
+  margin: 0;
+  margin-left: 6px;
+
+  font-family: "Gilroy Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 120%;
+  /* identical to box height, or 16px */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.info-person p {
+  width: 310px;
+  height: 38px;
+  margin: 0;
+  margin-left: 17px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: left;
+  line-height: 160%;
+  /* or 19px */
+
+  color: #ffffff;
+}
+
+.info-person b {
+  color: #4252d1;
+  font-family: "Gilroy Bold";
+}
