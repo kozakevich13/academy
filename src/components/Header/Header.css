@@ -1,13 +1,39 @@
 header {
-  background-color: #f2f2f2;
   padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: transparent;
 }
 
-.logo img {
-  height: 50px;
+.logo-container img {
+  display: block;
+}
+
+.logo-container {
+  display: flex;
+  margin-left: 352px;
+}
+
+.logo-img {
+  width: 50px;
+  height: 56px;
+  margin-top: 34px;
+}
+
+.powercode-img {
+  height: 15.75px;
+  width: 118.125px;
+}
+
+.academy-img {
+  height: 15.75px;
+  width: 118.125px;
+  margin-top: 7px;
+}
+
+.company-name {
+  margin-top: 44px;
 }
 
 .menu {

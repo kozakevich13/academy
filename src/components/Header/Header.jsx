@@ -1,11 +1,17 @@
 import "./Header.css";
-import logo from "../../img/Shape.png";
+import logo_img from "../../img/logo.svg";
+import academy_img from "../../img/ACADEMY.svg";
+import powercode_img from "../../img/POWERCODE.svg";
 
 function Header() {
   return (
     <header>
-      <div class="logo">
-        <img src={logo} alt="Лого" />
+      <div className="logo-container">
+        <img className="logo-img" src={logo_img} alt="logo" />
+        <div className="company-name">
+          <img className="powercode-img" src={powercode_img} alt="POWERCODE" />
+          <img className="academy-img" src={academy_img} alt="ACADEMY" />
+        </div>
       </div>
       <nav>
         <ul class="menu">
