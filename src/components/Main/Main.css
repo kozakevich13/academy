@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url("../../fonts/Gilroy-Bold/Gilroy-Bold.ttf") format("truetype"),
+    url("../../fonts/Gilroy-Bold/Gilroy-Bold.woff") format("woff"),
+    url("../../fonts/Gilroy-Bold/Gilroy-Bold.woff2") format("opentype");
+}
+
+.vebinar {
+  display: flex;
+  height: 32px;
+  width: 119px;
+  background: #4252d1;
+  border-radius: 5px;
+  margin-left: 256px;
+  margin-top: 116px;
+}
+
+.vebinar img {
+  height: 19px;
+  width: 19px;
+  margin-top: 7px;
+  margin-left: 14px;
+}
+
+.vebinar p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 4px;
+  margin-left: 7px;
+}
+
+.main-title {
+  width: 427px;
+  height: 95.47px;
+  margin-left: 256px;
+}
+
+.main-title p {
+  margin: 0;
+
+  font-family: "Gilroy Bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 77px;
+  line-height: 94px;
+  text-transform: uppercase;
+  color: #ff3459;
+}
