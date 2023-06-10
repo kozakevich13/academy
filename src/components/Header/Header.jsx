@@ -13,16 +13,14 @@ function Header() {
           <img className="academy-img" src={academy_img} alt="ACADEMY" />
         </div>
       </div>
-      <nav>
-        <ul class="menu">
-          <li>
-            <a href="#">Пункт меню 1</a>
-          </li>
-          <li>
-            <a href="#">Пункт меню 2</a>
-          </li>
-        </ul>
-      </nav>
+      <div className="event-time">
+        <div className="day">
+          <p>28 декабря</p>
+        </div>
+        <div className="hours">
+          <p>3,5 часа</p>
+        </div>
+      </div>
     </header>
   );
 }

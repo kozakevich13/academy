@@ -1,7 +1,5 @@
 header {
-  padding: 10px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background-color: transparent;
 }
@@ -12,7 +10,7 @@ header {
 
 .logo-container {
   display: flex;
-  margin-left: 352px;
+  margin-left: 256px;
 }
 
 .logo-img {
@@ -36,19 +34,37 @@ header {
   margin-top: 44px;
 }
 
-.menu {
-  list-style: none;
+.event-time {
   display: flex;
-  gap: 10px;
+  margin-left: 446px;
 }
 
-.menu li a {
-  text-decoration: none;
-  color: #333;
-  padding: 5px 10px;
-  border: 1px solid transparent;
+.event-time p {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
-.menu li a:hover {
-  border-color: #333;
+.day {
+  height: 40px;
+  width: 141px;
+  left: 684px;
+  top: 32px;
+  border-radius: 10px;
+  color: #ffffff;
+  background: #302e5a;
+}
+
+.hours {
+  height: 40px;
+  width: 141px;
+  left: 843px;
+  top: 32px;
+  border-radius: 10px;
+  color: #ffffff;
+  margin-left: 18px;
+  background: #302e5a;
 }
