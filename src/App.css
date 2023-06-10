@@ -1,3 +1,14 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("./fonts/gilroy/Gilroy-Thin.ttf") format("truetype"),
+    url("./fonts/gilroy/Gilroy-Thin.woff") format("woff"),
+    url("./fonts/gilroy/Gilroy-Thin.eot") format("opentype");
+}
+
+body {
+  font-family: "Gilroy", sans-serif;
+}
+
 .App {
   text-align: center;
   background-image: url("./img/background.jpg");
