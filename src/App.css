@@ -5,6 +5,13 @@
     url("./fonts/gilroy/Gilroy-Thin.eot") format("opentype");
 }
 
+@font-face {
+  font-family: "Gilroy Bold";
+  src: url("./fonts/Gilroy-Bold/Gilroy-Bold.ttf") format("truetype"),
+    url("./fonts/Gilroy-Bold/Gilroy-Bold.woff") format("woff"),
+    url("./fonts/Gilroy-Bold/Gilroy-Bold.woff2") format("opentype");
+}
+
 body {
   font-family: "Gilroy", sans-serif;
 }

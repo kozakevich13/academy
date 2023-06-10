@@ -9,10 +9,25 @@ footer {
 }
 
 .footer-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
+  position: absolute;
+  bottom: -38px;
+  left: -251px;
+  width: 1940px;
+  height: 158.73px;
+  margin: 0;
 
+  font-family: "Gilroy BOLD";
+  font-style: normal;
+  /* font-weight: 800; */
+  font-size: 129.359px;
+  line-height: 158px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  -webkit-text-stroke: 1.59744px rgba(255, 255, 255, 0.05);
+  -webkit-text-fill-color: transparent;
+}
 @media screen and (max-width: 600px) {
   .footer-content {
     max-width: 100%;
