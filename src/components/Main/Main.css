@@ -144,7 +144,7 @@ mark {
   width: 155.35px;
   height: 16px;
   margin: 0;
-  margin-left: 6px;
+  margin-left: 5px;
 
   font-family: "Gilroy Bold";
   font-style: normal;
@@ -177,4 +177,47 @@ mark {
 .info-person b {
   color: #4252d1;
   font-family: "Gilroy Bold";
+}
+
+.bonus-img {
+  width: 37px;
+  height: 37px;
+}
+
+.bonus-section {
+  display: flex;
+  margin-left: 256px;
+  margin-top: 16px;
+}
+
+.bonus-section h2 {
+  width: 135px;
+  height: 18px;
+  margin: 0;
+  margin-left: 30px;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 148%;
+  /* identical to box height, or 18px */
+
+  color: #ffffff;
+}
+
+.bonus-section p {
+  width: 216px;
+  height: 33px;
+  margin-left: 30px;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 148%;
+  text-align: left;
+  /* or 18px */
+
+  color: #ffffff;
 }
