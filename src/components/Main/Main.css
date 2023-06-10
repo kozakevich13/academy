@@ -41,7 +41,6 @@
 
 .main-title p {
   margin: 0;
-
   font-family: "Gilroy Bold";
   font-style: normal;
   font-weight: 800;
@@ -49,4 +48,83 @@
   line-height: 94px;
   text-transform: uppercase;
   color: #ff3459;
+}
+
+.first-decription {
+  display: flex;
+}
+.container-zero {
+  width: 106.72px;
+  height: 38.69px;
+  background: #ff3459;
+  border-radius: 5px;
+  transform: rotate(-3.51deg);
+  margin-left: 256px;
+}
+
+.container-zero h2 {
+  width: 82.08px;
+  height: 28.89px;
+  margin: 0;
+  padding-top: 6px;
+  margin-left: 13px;
+  font-family: "Gilroy Bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 23.6391px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+  transform: rotate(3deg);
+}
+
+.first-decription p {
+  margin: 0;
+  width: 295px;
+  height: 26.34px;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.9494px;
+  line-height: 26px;
+  /* identical to box height */
+  color: #ffffff;
+  margin-left: 16px;
+}
+
+.secont-decription {
+  width: 419px;
+  height: 108px;
+  margin-left: 257px;
+  margin-top: 30px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 148%;
+  /* or 27px */
+
+  color: #ffffff;
+  text-align: left;
+}
+
+mark {
+  width: 90px;
+  height: 27px;
+  background-color: #4252d1;
+  border-radius: 3px;
+  padding: 2px 4px;
+
+  font-family: "Gilroy bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.332px;
+  line-height: 148%;
+  /* identical to box height, or 26px */
+
+  color: #ffffff;
 }
