@@ -1,10 +1,18 @@
+.main-content {
+  display: flex;
+}
+
+.info-conteiner {
+  margin-left: 256px;
+}
+
 .vebinar {
   display: flex;
   height: 32px;
   width: 119px;
   background: #4252d1;
   border-radius: 5px;
-  margin-left: 256px;
+  /* margin-left: 256px; */
   margin-top: 116px;
 }
 
@@ -29,7 +37,7 @@
 .main-title {
   width: 427px;
   height: 95.47px;
-  margin-left: 256px;
+  /* margin-left: 256px; */
 }
 
 .main-title p {
@@ -52,7 +60,6 @@
   background: #ff3459;
   border-radius: 5px;
   transform: rotate(-3.51deg);
-  margin-left: 256px;
 }
 
 .container-zero h2 {
@@ -89,10 +96,9 @@
   margin-left: 16px;
 }
 
-.secont-decription {
+.second-decription {
   width: 419px;
   height: 108px;
-  margin-left: 257px;
   margin-top: 30px;
   font-family: "Gilroy";
   font-style: normal;
@@ -124,7 +130,6 @@ mark {
 
 .info-person {
   display: flex;
-  margin-left: 256px;
   margin-top: 52px;
 }
 
@@ -179,7 +184,6 @@ mark {
 
 .bonus-section {
   display: flex;
-  margin-left: 256px;
   margin-top: 16px;
 }
 

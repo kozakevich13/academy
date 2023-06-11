@@ -1,0 +1,78 @@
+.user-form {
+  width: 366px;
+  height: 474px;
+  background: #303a53;
+  border-radius: 10px;
+  margin-left: 135px;
+  margin-top: 124px;
+}
+
+form input {
+  padding: 0;
+  padding-left: 22px;
+  width: 226px;
+  height: 51px;
+  background: #272d3d;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+.user-form h2 {
+  width: 245px;
+  height: 52px;
+  margin-top: 50px;
+  margin-left: 61px;
+  margin-bottom: 0;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  /* or 118% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.user-form button {
+  padding: 0;
+  margin-top: 14px;
+  box-sizing: border-box;
+
+  width: 248px;
+  height: 51px;
+
+  background: #ff3459;
+  border-radius: 5px;
+  border: none;
+
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  color: #ffffff;
+}
+
+.user-form p {
+  width: 250px;
+  height: 36px;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 58px;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 149%;
+  /* or 18px */
+
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.5);
+}
