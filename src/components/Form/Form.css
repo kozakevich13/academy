@@ -76,3 +76,7 @@ form input {
 
   color: rgba(255, 255, 255, 0.5);
 }
+
+.user-form strong {
+  color: #ff3459;
+}

@@ -22,7 +22,9 @@ const Form = () => {
   return (
     <div className="user-form">
       <form onSubmit={handleSubmit}>
-        <h2>Запишитесь бесплатно и получите подарок</h2>
+        <h2>
+          Запишитесь <strong>бесплатно</strong> и получите подарок
+        </h2>
         <input id="email" type="text" placeholder="email" required />
         <input
           id="subject"
