@@ -27,7 +27,7 @@ header {
 .academy-img {
   height: 15.75px;
   width: 118.125px;
-  margin-top: 7px;
+  margin-top: 4px;
 }
 
 .company-name {
@@ -38,7 +38,7 @@ header {
 .event-time {
   display: flex;
   margin-left: 446px;
-  margin-top: 42px;
+  margin-top: 32px;
 }
 
 .event-time p {

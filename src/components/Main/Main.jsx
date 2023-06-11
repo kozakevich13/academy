@@ -42,7 +42,7 @@ function Main() {
         </div>
         <div className="bonus-section">
           <img className="bonus-img" src={bonus_img} alt="profile-img" />
-          <div>
+          <div className="bonus-text">
             <h2>Бонус за регистрацию</h2>
             <p>PDF-файл "5 преимуществ профессии фронтенд разработчика"</p>
           </div>

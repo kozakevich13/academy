@@ -1,6 +1,6 @@
 import "./Header.css";
 import logo_img from "../../img/logo.svg";
-import academy_img from "../../img/ACADEMY.svg";
+import academy_img from "../../img/ACADEMY.png";
 import powercode_img from "../../img/POWERCODE.svg";
 import time_icon from "../../img/gg_time.svg";
 import calendat_icon from "../../img/calendar_today.svg";

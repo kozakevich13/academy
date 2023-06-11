@@ -4,7 +4,7 @@
   background: #303a53;
   border-radius: 10px;
   margin-left: 135px;
-  margin-top: 124px;
+  margin-top: 116px;
 }
 
 form input {
@@ -15,7 +15,7 @@ form input {
   background: #272d3d;
   border-radius: 5px;
   border: none;
-  margin-top: 20px;
+  margin-top: 16px;
   /* transform: matrix(1, 0, 0, -1, 0, 0); */
 }
 

@@ -25,14 +25,14 @@ const Form = () => {
         <h2>
           Запишитесь <strong>бесплатно</strong> и получите подарок
         </h2>
-        <input id="email" type="text" placeholder="email" required />
         <input
           id="subject"
           type="text"
-          placeholder="Імя та Прізвище"
+          placeholder="Ваше имя и фамилия"
           required
         />
-        <input id="description" placeholder="Номер телефону" />
+        <input id="description" placeholder="Ваш номер телефона" />
+        <input id="email" type="text" placeholder="Ваш email" required />
         <div>
           <button type="submit">Записаться бесплатно</button>
         </div>
