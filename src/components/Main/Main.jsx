@@ -3,6 +3,7 @@ import globe from "../../img/globe.svg";
 import profile_img from "../../img/profile-img.png";
 import bonus_img from "../../img/bonus-img.svg";
 import Form from "../Form/Form";
+import Icons from "../Icons/Icons";
 
 function Main() {
   return (
@@ -49,6 +50,7 @@ function Main() {
       </div>
 
       <Form />
+      <Icons />
     </div>
   );
 }

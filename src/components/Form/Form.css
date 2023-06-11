@@ -57,6 +57,7 @@ form input {
   /* identical to box height, or 160% */
 
   color: #ffffff;
+  cursor: pointer;
 }
 
 .user-form p {
