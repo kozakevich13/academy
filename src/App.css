@@ -15,7 +15,12 @@
 body {
   font-family: "Gilroy", sans-serif;
 }
-
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
   background-image: url("./img/background.jpg");
@@ -92,7 +97,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 118%;
+    height: 110%;
+    width: 119%;
   }
 }
