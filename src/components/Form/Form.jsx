@@ -27,7 +27,7 @@ const Form = () => {
     }, {});
 
     const link = document.createElement("a");
-    link.href = `mailto:vitaliy.kozakevich@gmail.com?subject=name:${res.subject}&body=phone number:${res.description}, email: ${res.email}`;
+    link.href = `mailto:designer.web.studio.rgb@gmail.com?subject=name:${res.subject}&body=phone number:${res.description}, email: ${res.email}`;
     link.click();
   }
 
