@@ -81,3 +81,98 @@ form input {
 .user-form strong {
   color: #ff3459;
 }
+
+/* Планшет */
+@media (max-width: 1180px) {
+  .user-form {
+    width: 90%;
+    max-height: 380px;
+    background: #303a53;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+  .user-form h2 {
+    width: 100%;
+    height: 52px;
+    margin: 0;
+    padding-top: 20px;
+    /* margin-left: 40%; */
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .user-form p {
+    width: 100%;
+    height: 36px;
+    margin: 0;
+    margin-top: 20px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 149%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  form input {
+    padding: 0;
+    padding-left: 22px;
+    width: 226px;
+    height: 51px;
+    background: #272d3d;
+    border-radius: 5px;
+    border: none;
+    margin-top: 16px;
+    margin-right: 10px;
+    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+  }
+}
+
+/* Телефон */
+@media (max-width: 520px) {
+  .user-form {
+    width: 400px;
+    height: 100%;
+    background: #303a53;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
+  .user-form h2 {
+    width: 245px;
+    height: 52px;
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-bottom: 0;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .user-form p {
+    width: 100%;
+    height: 36px;
+    margin: 0;
+    margin-top: 10px;
+    /* margin-left: 58px; */
+    padding-bottom: 10px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 149%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}

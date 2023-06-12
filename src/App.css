@@ -22,7 +22,6 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
 }
 
 .App-logo {
@@ -57,5 +56,43 @@ body {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Планшет */
+@media (max-width: 1180px) {
+  .App {
+    text-align: center;
+    background-image: none;
+    background: rgb(47, 45, 88);
+    background: linear-gradient(
+      0deg,
+      rgba(47, 45, 88, 1) 0%,
+      rgba(37, 39, 51, 1) 100%
+    );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* Телефон */
+@media (max-width: 520px) {
+  .App {
+    text-align: center;
+    background-image: none;
+    background: rgb(47, 45, 88);
+    background: linear-gradient(
+      0deg,
+      rgba(47, 45, 88, 1) 0%,
+      rgba(37, 39, 51, 1) 100%
+    );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 118%;
   }
 }

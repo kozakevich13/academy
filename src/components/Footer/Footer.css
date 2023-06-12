@@ -1,25 +1,19 @@
 footer {
   background-color: transparent;
-  padding: 20px;
   text-align: center;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
   width: 100%;
-}
-
-.footer-content {
-  position: absolute;
-  bottom: -38px;
-  left: -251px;
-  width: 1940px;
-  height: 158.73px;
+  height: 156px;
   margin: 0;
+  text-align: center;
+  padding: 0;
 
   font-family: "Gilroy BOLD";
   font-style: normal;
   /* font-weight: 800; */
-  font-size: 129.359px;
+  font-size: 127.359px;
   line-height: 158px;
   /* identical to box height */
 
@@ -28,9 +22,17 @@ footer {
   -webkit-text-stroke: 1.59744px rgba(255, 255, 255, 0.05);
   -webkit-text-fill-color: transparent;
 }
-@media screen and (max-width: 600px) {
-  .footer-content {
-    max-width: 100%;
-    padding: 0 20px;
+
+/* Планшет */
+
+@media (max-width: 1420px) {
+  footer {
+    display: none;
+  }
+}
+/* Телефон */
+@media (max-width: 520px) {
+  footer {
+    display: none;
   }
 }

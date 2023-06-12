@@ -1,11 +1,7 @@
 import "./Footer.css";
 
 function Footer() {
-  return (
-    <footer>
-      <div class="footer-content">front-end developer</div>
-    </footer>
-  );
+  return <footer>front-end developer</footer>;
 }
 
 export default Footer;

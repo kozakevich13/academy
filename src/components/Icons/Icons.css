@@ -1,0 +1,122 @@
+/* HTML ICON */
+.html5-icon {
+  width: 99.28px;
+  height: 104.28px;
+}
+
+.html-elips {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 100px;
+  top: 18.45px;
+}
+
+.html-group {
+  position: absolute;
+
+  left: 1300.61px;
+  top: 241.81px;
+}
+
+/* CSS ICON */
+
+.css-icon {
+  width: 85.4px;
+  height: 97.45px;
+}
+
+.css-elips {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 69px;
+  top: -5.55px;
+}
+
+.css-group {
+  position: absolute;
+
+  left: 1219.8px;
+  top: 342.22px;
+}
+
+/* JS ICON */
+
+.js-icon {
+  width: 76.89px;
+  height: 87.94px;
+}
+
+.js-elips {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 83px;
+  top: 20.45px;
+}
+
+.js-group {
+  position: absolute;
+
+  left: 1327.16px;
+  top: 404.2px;
+}
+
+/* SUBLIME ICON */
+
+.sublime-icon {
+  width: 69.93px;
+  height: 74.93px;
+}
+
+.sublime-elips {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 59px;
+  top: -7.55px;
+}
+
+.sublime-group {
+  position: absolute;
+
+  left: 1219px;
+  top: 478.06px;
+}
+
+/* VSCODE ICON  */
+
+.vscode-icon {
+  width: 80.62px;
+  height: 74.62px;
+}
+
+.vscode-elips {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 82px;
+  top: 58.45px;
+}
+
+.vscode-group {
+  position: absolute;
+
+  left: 1295px;
+  top: 548.29px;
+}
+
+/* Планшет */
+@media (max-width: 1420px) {
+  .icons-bar {
+    display: none;
+  }
+}
+
+/* Телефон */
+@media (max-width: 520px) {
+  .icons-bar {
+    display: none;
+  }
+}
