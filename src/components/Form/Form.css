@@ -16,7 +16,7 @@ form input {
   border-radius: 5px;
   border: none;
   margin-top: 16px;
-  /* transform: matrix(1, 0, 0, -1, 0, 0); */
+  color: white;
 }
 
 .user-form h2 {
@@ -131,7 +131,7 @@ form input {
     border: none;
     margin-top: 16px;
     margin-right: 10px;
-    /* transform: matrix(1, 0, 0, -1, 0, 0); */
+    color: white;
   }
 }
 

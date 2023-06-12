@@ -31,15 +31,21 @@ const Form = () => {
           placeholder="Ваше имя и фамилия"
           required
         />
-        <input id="description" placeholder="Ваш номер телефона" />
-        <input id="email" type="text" placeholder="Ваш email" required />
+        <input
+          id="description"
+          type="tel"
+          placeholder="Ваш номер телефона"
+          required
+          pattern="[0-9]{12}"
+        />
+        <input id="email" type="email" placeholder="Ваш email" required />
         <div>
           <button type="submit">Записаться бесплатно</button>
         </div>
 
         <p>
-          Нажимая на кнопку я согашаюсь <br />{" "}
-          <u>с политикой конфидециальности</u>{" "}
+          Нажимая на кнопку я соглашаюсь <br />{" "}
+          <u>с политикой конфиденциальности</u>{" "}
         </p>
       </form>
     </div>
