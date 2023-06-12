@@ -59,6 +59,9 @@ form input {
   color: #ffffff;
   cursor: pointer;
 }
+.user-form u {
+  cursor: pointer;
+}
 
 .user-form p {
   width: 250px;
