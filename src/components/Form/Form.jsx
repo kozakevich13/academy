@@ -1,7 +1,19 @@
 import React, { useState } from "react";
 import "./Form.css";
+import "react-phone-number-input/style.css";
+import PhoneInput from "react-phone-number-input";
 
 const Form = () => {
+  const [phone, setPhone] = useState("");
+
+  function handlePhoneChange(value) {
+    setPhone(value);
+
+    if (/[^\d+]/.test(value)) {
+      alert("Будь ласка, введіть тільки цифри для номера телефону");
+    }
+  }
+
   function handleSubmit(e) {
     e.preventDefault();
 
@@ -25,20 +37,35 @@ const Form = () => {
         <h2>
           Запишитесь <strong>бесплатно</strong> и получите подарок
         </h2>
-        <input
-          id="subject"
-          type="text"
-          placeholder="Ваше имя и фамилия"
-          required
-        />
-        <input
-          id="description"
-          type="tel"
-          placeholder="Ваш номер телефона"
-          required
-          pattern="[0-9]{12}"
-        />
-        <input id="email" type="email" placeholder="Ваш email" required />
+        <div className="box-input">
+          <input
+            id="subject"
+            type="text"
+            placeholder="Ваше имя и фамилия"
+            required
+            className="form-input"
+          />
+          <PhoneInput
+            id="description"
+            placeholder="Ваш номер телефона"
+            required
+            defaultCountry="UA"
+            international={true}
+            value={phone}
+            onChange={handlePhoneChange}
+            // defaultStyle={false}
+            className="form-input phone-input"
+          />
+
+          <input
+            className="form-input"
+            id="email"
+            type="email"
+            placeholder="Ваш email"
+            required
+          />
+        </div>
+
         <div>
           <button type="submit">Записаться бесплатно</button>
         </div>
