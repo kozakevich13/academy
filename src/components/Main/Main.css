@@ -232,19 +232,19 @@ mark {
     height: 100%;
   }
   .first-decription {
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
   }
 
   .info-person {
-    width: 60%;
+    width: 80%;
     display: flex;
     margin: 0 auto;
     margin-top: 10px;
   }
 
   .second-decription {
-    width: 80%;
+    width: 85%;
     height: 108px;
     margin: 0 auto;
     margin-top: 25px;
@@ -259,7 +259,7 @@ mark {
   }
 
   .bonus-section {
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     margin-top: 24px;
