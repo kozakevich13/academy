@@ -64,7 +64,25 @@ html {
   }
 }
 
-/* Планшет */
+@media (max-width: 1420px) {
+  .App {
+    text-align: center;
+    background-image: none;
+    background: rgb(47, 45, 88);
+    background: linear-gradient(
+      0deg,
+      rgba(47, 45, 88, 1) 0%,
+      rgba(37, 39, 51, 1) 100%
+    );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
+
 @media (max-width: 1180px) {
   .App {
     text-align: center;
@@ -80,6 +98,7 @@ html {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+    padding-bottom: 10px;
   }
 }
 

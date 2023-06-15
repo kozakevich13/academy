@@ -53,7 +53,6 @@ const Form = () => {
             international={true}
             value={phone}
             onChange={handlePhoneChange}
-            // defaultStyle={false}
             className="form-input phone-input"
           />
 
