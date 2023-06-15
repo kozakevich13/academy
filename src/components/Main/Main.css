@@ -231,6 +231,39 @@ mark {
     display: block;
     height: 100%;
   }
+  .first-decription {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .info-person {
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .second-decription {
+    width: 80%;
+    height: 108px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 148%;
+
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .bonus-section {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 24px;
+  }
 
   .first-decription p {
     margin: 0;
@@ -263,7 +296,7 @@ mark {
     width: 119px;
     background: #4252d1;
     border-radius: 5px;
-    margin-left: 42%;
+    margin: 0 auto;
     margin-top: 40px;
   }
 }
@@ -301,6 +334,20 @@ mark {
     line-height: 148%;
     color: #ffffff;
     text-align: center;
+  }
+
+  .bonus-section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 24px;
+  }
+
+  .info-person {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
   }
 
   .container-zero h2 {
