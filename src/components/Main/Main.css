@@ -170,6 +170,23 @@ mark {
   font-family: "Gilroy Bold";
 }
 
+.thousand {
+  display: inline;
+  width: 90px;
+  height: 27px;
+  background-color: #4252d1;
+  border-radius: 3px;
+  padding: 2px 4px;
+
+  font-family: "Gilroy bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17.332px;
+  line-height: 148%;
+
+  color: #ffffff;
+}
+
 .bonus-img {
   width: 37px;
   height: 37px;
@@ -255,7 +272,7 @@ mark {
     line-height: 148%;
 
     color: #ffffff;
-    text-align: left;
+    text-align: center;
   }
 
   .bonus-section {
@@ -277,6 +294,22 @@ mark {
     line-height: 26px;
     color: #ffffff;
     margin-left: 16px;
+  }
+  .thousand {
+    display: inline;
+    width: 90px;
+    height: 27px;
+    background-color: #4252d1;
+    border-radius: 3px;
+    padding: 2px 4px;
+
+    font-family: "Gilroy bold";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.332px;
+    line-height: 148%;
+
+    color: #ffffff;
   }
 
   .main-title p {
@@ -334,6 +367,24 @@ mark {
     line-height: 148%;
     color: #ffffff;
     text-align: center;
+  }
+  .second-decription b {
+    color: #4252d1;
+  }
+  .second-decription mark {
+    background-color: rgba(0, 0, 0, 0);
+    color: #4252d1;
+  }
+
+  .thousand {
+    display: inline;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 148%;
+    color: #4252d1;
+    background-color: rgba(0, 0, 0, 0);
   }
 
   .bonus-section {
