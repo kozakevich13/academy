@@ -16,8 +16,8 @@ function Header() {
         </div>
       </div>
       <div className="event-time">
-        <div className="event_day">
-          <div className="data-conteiner-day">
+        <div className="event_data">
+          <div className="data-conteiner day">
             <img
               className="event-icon"
               src={calendat_icon}
@@ -26,8 +26,8 @@ function Header() {
             <p>28 декабря</p>
           </div>
         </div>
-        <div className="event_hours">
-          <div className="data-conteiner-hour">
+        <div className="event_data">
+          <div className="data-conteiner hour">
             <img className="event-icon" src={time_icon} alt="time_icon"></img>
             <p>3,5 часа</p>
           </div>

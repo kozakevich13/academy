@@ -37,7 +37,7 @@ header {
 
 .event-time {
   display: flex;
-  margin-left: 31%;
+  margin-left: 30%;
   margin-top: 32px;
 }
 
@@ -52,12 +52,12 @@ header {
 }
 
 .event-icon {
-  margin-top: 13px;
+  margin: auto 0;
   width: 15px;
   height: 15px;
 }
 
-.event_day {
+.event_data {
   height: 40px;
   width: 141px;
   left: 684px;
@@ -65,6 +65,7 @@ header {
   border-radius: 10px;
   color: #ffffff;
   background: #302e5a;
+  margin-left: 20px;
 }
 
 .event_hours {
@@ -78,62 +79,57 @@ header {
   background: #302e5a;
 }
 
-.data-conteiner-day {
+.data-conteiner {
   display: flex;
-  margin-left: 23px;
-}
-
-.data-conteiner-hour {
-  display: flex;
-  margin-left: 32px;
+  margin-left: 25px;
 }
 
 /* Планшет */
 @media (max-width: 1180px) {
   .logo-container {
-    margin-left: 35px; /* Змініть значення за необхідністю */
+    margin-left: 35px;
   }
 
   .company-name {
-    margin-top: 24px; /* Змініть значення за необхідністю */
-    margin-left: 10px; /* Змініть значення за необхідністю */
+    margin-top: 24px;
+    margin-left: 10px;
   }
 
   .event-time {
     position: absolute;
     right: 7%;
-    margin-left: 20%; /* Змініть значення за необхідністю */
-    margin-top: 16px; /* Змініть значення за необхідністю */
+    margin-left: 20%;
+    margin-top: 16px;
   }
 
-  .data-conteiner-day {
-    margin-left: 10px; /* Змініть значення за необхідністю */
+  .data-conteiner {
+    margin-left: 10px;
   }
 
-  .data-conteiner-hour {
-    margin-left: 20px; /* Змініть значення за необхідністю */
+  .data-conteiner {
+    margin-left: 20px;
   }
 }
 
 /* Телефон */
 @media (max-width: 550px) {
   .logo-container {
-    margin-left: 20px; /* Змініть значення за необхідністю */
+    margin-left: 20px;
   }
 
-  .event_day {
-    height: 40px;
-    width: 110px;
+  .event_data {
+    height: 24px;
+    width: 88px;
   }
 
   .powercode-img {
-    height: 15.75px;
-    width: 94.125px;
+    height: 7px;
+    width: 100%;
   }
 
   .academy-img {
-    height: 15.75px;
-    width: 92.125px;
+    height: 9px;
+    width: 100%;
     margin-top: 4px;
   }
 
@@ -142,28 +138,51 @@ header {
     width: 110px;
     margin-left: 10px;
   }
+  .event-icon {
+    margin: 0;
+    margin-top: 7px;
+    width: 11px;
+    height: 11px;
+  }
+
+  .event-time p {
+    font-family: Gilroy;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 2px;
+  }
+
+  .hour {
+    margin-left: 14px;
+  }
+
+  .day {
+    margin-left: 7px;
+  }
 
   .logo-img {
-    width: 50px;
-    height: 56px;
+    width: 28px;
+    height: 32px;
     margin-top: 20px;
   }
 
   .company-name {
-    margin-top: 30px; /* Змініть значення за необхідністю */
-    margin-left: 5px; /* Змініть значення за необхідністю */
+    margin-left: 5px;
   }
 
   .event-time {
-    margin-right: -72px; /* Змініть значення за необхідністю */
-    margin-top: 22px; /* Змініть значення за необхідністю */
+    margin-right: 0;
+    margin-top: 22px;
   }
 
-  .data-conteiner-day {
-    margin-left: 5px; /* Змініть значення за необхідністю */
-  }
-
-  .data-conteiner-hour {
-    margin-left: 10px; /* Змініть значення за необхідністю */
+  .data-conteiner {
+    width: 100px;
+    text-align: center;
+    margin-bottom: 2px;
   }
 }

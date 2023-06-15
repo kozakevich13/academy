@@ -12,7 +12,6 @@
   width: 119px;
   background: #4252d1;
   border-radius: 5px;
-  /* margin-left: 256px; */
   margin-top: 116px;
 }
 
@@ -72,7 +71,6 @@
   font-weight: 800;
   font-size: 23.6391px;
   line-height: 29px;
-  /* identical to box height */
 
   text-transform: uppercase;
 
@@ -91,7 +89,6 @@
   font-weight: 600;
   font-size: 20.9494px;
   line-height: 26px;
-  /* identical to box height */
   color: #ffffff;
   margin-left: 16px;
 }
@@ -105,7 +102,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 148%;
-  /* or 27px */
 
   color: #ffffff;
   text-align: left;
@@ -123,7 +119,6 @@ mark {
   font-weight: 700;
   font-size: 17.332px;
   line-height: 148%;
-  /* identical to box height, or 26px */
 
   color: #ffffff;
 }
@@ -149,7 +144,6 @@ mark {
   font-weight: 700;
   font-size: 13px;
   line-height: 120%;
-  /* identical to box height, or 16px */
 
   text-transform: uppercase;
 
@@ -167,7 +161,6 @@ mark {
   font-size: 12px;
   text-align: left;
   line-height: 160%;
-  /* or 19px */
 
   color: #ffffff;
 }
@@ -202,7 +195,6 @@ mark {
   font-weight: 700;
   font-size: 12px;
   line-height: 148%;
-  /* identical to box height, or 18px */
 
   color: #ffffff;
 }
@@ -279,31 +271,99 @@ mark {
 /* Телефон */
 @media (max-width: 520px) {
   .info-conteiner {
-    margin-left: 6%;
+    margin: 0 auto;
     width: 90%;
   }
   .main-title {
     width: 100%;
-    height: 95.47px;
+    height: 100%;
   }
 
   .main-content {
     display: block;
     height: 100%;
   }
+  .first-decription {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .second-decription {
+    width: 100%;
+    height: 108px;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 148%;
+    color: #ffffff;
+    text-align: center;
+  }
+  .second-decription b {
+    /* font-size: 15px; */
+  }
+
+  .container-zero h2 {
+    width: 58.65px;
+    height: 20.56px;
+    margin: 0;
+    padding-top: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-family: "Gilroy Bold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+    transform: rotate(3deg);
+  }
+
+  .container-zero {
+    width: 76.26px;
+    height: 27.53px;
+    background: #ff3459;
+    border-radius: 5px;
+    transform: rotate(-3.51deg);
+  }
 
   .first-decription p {
     margin: 0;
     margin-top: 6px;
-    width: 295px;
-    height: 26.34px;
+    width: 208px;
+    height: 18px;
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 600;
-    font-size: 18.9494px;
-    line-height: 26px;
+    font-size: 15px;
+    line-height: 18px;
     color: #ffffff;
     margin-left: 16px;
+  }
+  .info-person {
+    display: flex;
+    margin-top: 10px;
+  }
+
+  .info-person p {
+    width: 100%;
+    height: 38px;
+    margin: 0;
+    margin-left: 17px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+    line-height: 160%;
+
+    color: #ffffff;
   }
 
   .main-title p {
@@ -311,8 +371,8 @@ mark {
     font-family: "Gilroy Bold";
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
-    line-height: 94px;
+    font-size: 52px;
+    line-height: 65px;
     text-transform: uppercase;
     color: #ff3459;
   }
@@ -323,7 +383,7 @@ mark {
     width: 119px;
     background: #4252d1;
     border-radius: 5px;
-    margin-left: 125px;
+    margin: 0 auto;
     margin-top: 40px;
   }
 }
