@@ -52,6 +52,26 @@ function Main() {
       </div>
 
       <Form />
+
+      <div className="info-person-copy">
+        <img src={profile_img} alt="profile-img" />
+        <div>
+          <h2>
+            Кирилл <b>КАСАТОНОВ</b>
+          </h2>
+          <p>
+            6 лет коммерческого опыта с такими компаниями как Mercedes-Benz и
+            другими крупными корпорациями
+          </p>
+        </div>
+      </div>
+      <div className="bonus-section-copy">
+        <img className="bonus-img" src={bonus_img} alt="profile-img" />
+        <div className="bonus-text">
+          <h2>Бонус за регистрацию</h2>
+          <p>PDF-файл "5 преимуществ профессии фронтенд разработчика"</p>
+        </div>
+      </div>
       <Icons />
     </div>
   );
